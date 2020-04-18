@@ -39,6 +39,8 @@ public class MySmsReceiver extends BroadcastReceiver {
         System.out.print(88888);
         System.out.print(99999);
 
+        System.out.print(000000);
+
 
 
 
