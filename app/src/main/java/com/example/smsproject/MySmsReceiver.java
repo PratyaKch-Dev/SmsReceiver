@@ -32,6 +32,8 @@ public class MySmsReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
 
+        System.out.print(66666);
+
         Bundle bundle = intent.getExtras();
         SmsMessage[] msgs;
         String strMessage = "";
