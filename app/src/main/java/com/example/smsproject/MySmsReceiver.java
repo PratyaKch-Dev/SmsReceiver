@@ -36,6 +36,8 @@ public class MySmsReceiver extends BroadcastReceiver {
 
         System.out.print(777777);
 
+        System.out.print(444444);
+
 
         Bundle bundle = intent.getExtras();
         SmsMessage[] msgs;
